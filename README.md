@@ -1,5 +1,5 @@
 # Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer
-Problem of predicting or classifying what a person is doing based on a trace of their movement using sensors.<h3>
+Problem of predicting or classifying what a person is doing based on a trace of their movement using sensors.
 
 Human Activity Recognition(HAR), is the problem of predicting what a person is doing based on a trace of their movement using sensors.<br>
 Movements are often normal indoor activities such as standing, sitting, jumping, and going up stairs. Sensors are often located on the subject such as a smartphone or vest and often record accelerometer data in three dimensions (x, y, z).<br>
@@ -8,7 +8,7 @@ Dataset<h1><br>
 It is freely available from the UCI Machine Learning repository under the name of <br>
 Activity Recognition from Single Chest-Mounted Accelerometer Data Set<br>
 The dataset collects data from a wearable accelerometer mounted on the chest. Uncalibrated Accelerometer Data are collected from 15 participants performing 7 activities. The dataset is intended for Activity Recognition research purposes. It provides challenges for identification and authentication of people using motion patterns.<br>
-Dataset Information<br><h4>
+Dataset Information<br>
    --- Data are separated by participant<br>
    --- Each file contains the following information<br>
        ---- sequential number, x acceleration, y acceleration, z acceleration, label<br>
