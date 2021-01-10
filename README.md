@@ -83,14 +83,14 @@ Total 68 features (17 x 4)<br/>
 ## Results<br/>
 ### Taking all Users (subjects) :<br/>
 Train data has 45688 data points and test data has 15230 data points<br/>
-#####Train Accuracy : 86.55%<br/>
+##### Train Accuracy : 86.55%<br/>
 ##### Confusion Matrix for train data<br/>
 ![Confusion Matrix for train data](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/confusion_matrix_train.png)
-#####Test Accuracy : 84.88%<br/>
+##### Test Accuracy : 84.88%<br/>
 ##### Confusion Matrix for test data<br/>
 ![Confusion Matrix for test data](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/confusion_matrix_test.png)
 <br/>
-Total Features 68<br>
+##### Total Features 68<br>
 Here are some top features with their importance<br/>
 maximum_frequency_domain_m : 0.0361020274197541<br>
 min_max_subtract_frequency_domain_m : 0.03476062545751772<br>
@@ -107,8 +107,8 @@ min_max_subtract_y : 0.024501741581540493<br/>
 Test files : 14, 7---Remaining files in Train<br/>
 Train data points 51892<br/>
 Test data points 9027<br/>
-Train accuracy : 83.64 
-Test accuracy : 64.29
+##### Train accuracy : 83.64 
+##### Test accuracy : 64.29
 There is a lot of varaince between subjects. So there is a big generalization gap.
 ##### Confusion Matrix Train
 ![Confusion Matrix Train](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/subject_divide_cm_train.png)
@@ -117,8 +117,8 @@ There is a lot of varaince between subjects. So there is a big generalization ga
 ### For Single Subject :
 Train data points 3966<br/>
 Test data points 1322<br/>
-Train accuracy : 89.61 
-Test accuracy : 87.98
+##### Train accuracy : 89.61 
+##### Test accuracy : 87.98
 ##### Confusion Matrix Train
 ![Confusion Matrix Train](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/subject_1_CM_train.png)
 ##### Confusion Matrix Test
