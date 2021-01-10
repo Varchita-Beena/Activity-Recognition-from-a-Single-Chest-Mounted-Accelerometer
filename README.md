@@ -54,6 +54,7 @@ We can also see that each subject spent a lot of time on activity 1 (standing Up
 
 <br/>
 <br/>
+
 ## Framing the data<br/>
 Sliding Windows : The contiguous trace for each subject is split into sliding windows, with overlap (approx 50%) and the mode of each activity for a window is taken as the activity to be predicted.<br/>
 Classes taken into consideration [1,3,4,5,7] (Working at Computer,Standing,Walking,Going Up\Down Stairs,Talking while Standing>)<br/>
@@ -82,11 +83,11 @@ Total 68 features (17 x 4)<br/>
 ## Results<br/>
 ### Taking all Users (subjects) :<br/>
 Train data has 45688 data points and test data has 15230 data points<br/>
-Train Accuracy : 86.55%<br/>
-##### Confusion Matrix for train data
+#####Train Accuracy : 86.55%<br/>
+##### Confusion Matrix for train data<br/>
 ![Confusion Matrix for train data](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/confusion_matrix_train.png)
-Test Accuracy : 84.88%<br/>
-##### Confusion Matrix for test data
+#####Test Accuracy : 84.88%<br/>
+##### Confusion Matrix for test data<br/>
 ![Confusion Matrix for test data](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/confusion_matrix_test.png)
 <br/>
 Total Features 68<br>
