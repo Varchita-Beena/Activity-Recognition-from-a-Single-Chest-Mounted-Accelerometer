@@ -39,6 +39,7 @@ plot for all subject together
 Looking for general trend across the traces.<br/>
 We can see that each subject has the same large spikes in the trace in the beginning of the sequence (first 60 seconds), perhaps related to the start-up of the experiment.<br/>
 We can see lots of orange and green and very little blue, suggesting that perhaps the z data is less important in modeling this problem.<br/>
+plot for histogram for all subjects<br/>
 plot for histogram for all subjects
 ### ![plot for histogram for all subjects](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/histogram_all_subjects.png)
 A histogram of the distribution of observations for each axis of accelerometer data.<br/>
@@ -82,8 +83,10 @@ Total 68 features (17 x 4)<br/>
 ### Taking all Users (subjects) :<br/>
 Train data has 45688 data points and test data has 15230 data points<br/>
 Train Accuracy : 86.55%<br/>
+Confusion Matrix for train data
 ![Confusion Matrix for train data](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/confusion_matrix_train.png)
 Test Accuracy : 84.88%<br/>
+Confusion Matrix for test data
 ![Confusion Matrix for test data](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/confusion_matrix_test.png)
 <br/>
 Total Features 68<br>
@@ -106,14 +109,18 @@ Test data points 9027<br/>
 Train accuracy : 83.64 
 Test accuracy : 64.29
 There is a lot of varaince between subjects. So there is a big generalization gap.
+Confusion Matrix Train
 ![Confusion Matrix Train](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/subject_divide_cm_train.png)
+Confusion Matrix Test
 ![Confusion Matrix Test](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/subject_divide_cm_test.png)
 ### For Single Subject :
 Train data points 3966<br/>
 Test data points 1322<br/>
 Train accuracy : 89.61 
 Test accuracy : 87.98
+Confusion Matrix Train
 ![Confusion Matrix Train](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/subject_1_CM_train.png)
+Confusion Matrix Test
 ![Confusion Matrix Test](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/subject_1_CM_test.png)
 
 
