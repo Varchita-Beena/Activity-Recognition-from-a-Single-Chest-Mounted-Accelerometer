@@ -8,7 +8,7 @@ To classify the activities and predicting the activites on upcomimg motions.<br>
 It is freely available from the UCI Machine Learning repository under the name of <br/>
 Activity Recognition from Single Chest-Mounted Accelerometer Data Set<br/>
 The dataset collects data from a wearable accelerometer mounted on the chest. Uncalibrated Accelerometer Data are collected from 15 participants performing 7 activities. The dataset is intended for Activity Recognition research purposes. It provides challenges for identification and authentication of people using motion patterns.<br/><br/>
-Dataset Information<br/>
+## Dataset Information<br/>
 Data are separated by participant<br/>
 Each file contains the following information:<br/>
 sequential number, x acceleration, y acceleration, z acceleration, label<br/>
@@ -22,8 +22,8 @@ Labels are codified by numbers<br/>
 7: Talking while Standing<br/>
 <br/>
 <br/>
-For plots use file : plot_traces.py
-For model use file : activity_recognize.py
+For plots use file : plot_traces.py<br/>
+For model use file : activity_recognize.py<br/>
 ### plots from data uisng plot_traces.py<br/>
 Plot for x acceleration for subject 7
 ### ![Plot for x acceleration for subject 7](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/subject_7_x.png)
@@ -31,7 +31,7 @@ Plot for y acceleration for subject 7
 ### ![Plot for y acceleration for subject 7](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/subject_7_y.png)
 Plot for z acceleration for subject 7
 ### ![Plot for z acceleration for subject 7](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/subject_7_z.png)
-We can also see that some activities are performed for much longer than others. This may impact the ability of a model to discriminate between the activities, e.g. activity 3 (standing) for both subjects has very little data relative to the other activities performed.
+We can also see that some activities are performed for much longer than others. This may impact the ability of a model to discriminate between the activities, e.g. activity 3 (standing) for both subjects has very little data relative to the other activities performed.<br/>
 plot for activity for subject 7
 ### ![plot for activity for subject 7](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/subject_7_activity.png)
 plot for all subject together
@@ -39,7 +39,6 @@ plot for all subject together
 Looking for general trend across the traces.<br/>
 We can see that each subject has the same large spikes in the trace in the beginning of the sequence (first 60 seconds), perhaps related to the start-up of the experiment.<br/>
 We can see lots of orange and green and very little blue, suggesting that perhaps the z data is less important in modeling this problem.<br/>
-plot for histogram for all subjects<br/>
 plot for histogram for all subjects
 ### ![plot for histogram for all subjects](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/histogram_all_subjects.png)
 A histogram of the distribution of observations for each axis of accelerometer data.<br/>
@@ -47,6 +46,7 @@ The hist() function is used to create a histogram for each axis of accelerometer
 The plot really helps to show both the relationship between the distributions within a subject and differences in the distributions between the subjects<br/>
 This plot suggest that the distribution of each axis of accelerometer is Gaussian or really close to Gaussian.<br/>
 Within each subject, a common pattern is for the x (blue) and z (green) are grouped together to the left and y data (orange) is separate to the right. The distribution of y is often sharper where as the distributions of x and z are flatter.<br/>
+plot durations for all subjects
 ### ![plot durations for all subjects](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/plot_durations_all_subjects.png)
 To find how long or how many observations we have for each activity across all of the subjects. This may be important if there is a lot more data for one activity than another, suggesting that less-well-represented activities may be harder to model.<br/>
 We can see that there is relatively fewer observations for activities, 2 (standing up, walking and going up/down stairs), 5 (going up/down stairs) and 6 (walking and talking).<br/>
