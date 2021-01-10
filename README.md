@@ -25,15 +25,21 @@ Labels are codified by numbers<br/>
 For plots use file : plot_traces.py
 For model use file : activity_recognize.py
 ### plots from data uisng plot_traces.py<br/>
+Plot for x acceleration for subject 7
 ### ![Plot for x acceleration for subject 7](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/subject_7_x.png)
+Plot for y acceleration for subject 7
 ### ![Plot for y acceleration for subject 7](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/subject_7_y.png)
+Plot for z acceleration for subject 7
 ### ![Plot for z acceleration for subject 7](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/subject_7_z.png)
 We can also see that some activities are performed for much longer than others. This may impact the ability of a model to discriminate between the activities, e.g. activity 3 (standing) for both subjects has very little data relative to the other activities performed.
+plot for activity for subject 7
 ### ![plot for activity for subject 7](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/subject_7_activity.png)
+plot for all subject together
 ### ![plot for all subject together](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/plot_trace_each_subject_together.png)
 Looking for general trend across the traces.<br/>
 We can see that each subject has the same large spikes in the trace in the beginning of the sequence (first 60 seconds), perhaps related to the start-up of the experiment.<br/>
 We can see lots of orange and green and very little blue, suggesting that perhaps the z data is less important in modeling this problem.<br/>
+plot for histogram for all subjects
 ### ![plot for histogram for all subjects](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/histogram_all_subjects.png)
 A histogram of the distribution of observations for each axis of accelerometer data.<br/>
 The hist() function is used to create a histogram for each axis of accelerometer data, and a large number of bins (100) is used to help spread out the data in the plot.<br/>
