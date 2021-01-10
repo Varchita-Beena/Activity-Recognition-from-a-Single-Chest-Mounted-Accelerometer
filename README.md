@@ -81,7 +81,7 @@ Total 68 features (17 x 4)<br/>
 2. Divide by subjects : Take 12 to 13 users data in to train and test on remaining users<br/>
 3. Single Subject : Divide train and test from single users<br/>
 ## Results<br/>
-### Taking all Users (subjects) :<br/>
+## Taking all Users (subjects) :<br/>
 Train data has 45688 data points and test data has 15230 data points<br/>
 ##### Train Accuracy : 86.55%<br/>
 ##### Confusion Matrix for train data<br/>
@@ -103,7 +103,7 @@ trapazodial_integral_frequency_domain_y : 0.02652868865587016<br/>
 variance_y : 0.02619098927283023<br/>
 min_max_subtract_y : 0.024501741581540493<br/>
 
-### Divide by Subjects :<br/>
+## Divide by Subjects :<br/>
 Test files : 14, 7---Remaining files in Train<br/>
 Train data points 51892<br/>
 Test data points 9027<br/>
@@ -114,7 +114,7 @@ There is a lot of varaince between subjects. So there is a big generalization ga
 ![Confusion Matrix Train](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/subject_divide_cm_train.png)
 ##### Confusion Matrix Test
 ![Confusion Matrix Test](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/subject_divide_cm_test.png)
-### For Single Subject :
+## For Single Subject :
 Train data points 3966<br/>
 Test data points 1322<br/>
 ##### Train accuracy : 89.61 
@@ -124,6 +124,11 @@ Test data points 1322<br/>
 ##### Confusion Matrix Test
 ![Confusion Matrix Test](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/subject_1_CM_test.png)
 
+
+#### References<br/>
+https://machinelearningmastery.com/how-to-load-and-explore-a-standard-human-activity-recognition-problem/<br/>
+Paper : Human activity recognition from accelerometer data using a wearable device", IbPRIA'11, 289-296, Springer-Verlag, 2011<br/>
+Paper : A Comprehensive Study of Activity Recognition Using Accelerometers
 
 
 
