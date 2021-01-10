@@ -22,7 +22,7 @@ Labels are codified by numbers<br/>
 7: Talking while Standing<br/>
 <br/>
 <br/>
-##plots from data uisng plot_traces.py<br/>
+## plots from data uisng plot_traces.py<br/>
 ![Plot for x acceleration for subject 7](https://github.com/Varchita-Beena/Activity-Recognition-from-a-Single-Chest-Mounted-Accelerometer/blob/main/subject_7_x.png)
 ![Plot for y acceleration for subject 7]
 ![Plot for z acceleration for subject 7]
