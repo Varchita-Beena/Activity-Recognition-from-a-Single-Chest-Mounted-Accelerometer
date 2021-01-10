@@ -171,7 +171,7 @@ print("test features\n")
 feature_test = extract_features(test_sequences)
 
 dimension_names = ['x','y','z','m'] #total dimensions in our data after extracting features
-all_features = ['variance','mean','minimum','maximum','min_max_sum','inter_quartile_range''mean_abs_deviation','min_max_subtract','kurtosis','trapazodial_integral','skewness','minimum_frequency_domain','maximum_frequency_domain','mini_max_sum_frequency_domain','variance_frequency_domain','mean_frequency_domain','min_max_subtract_frequency_domain']
+all_features = ['variance','mean','minimum','maximum','min_max_sum','inter_quartile_range','mean_abs_deviation','min_max_subtract','kurtosis','trapazodial_integral','skewness','minimum_frequency_domain','maximum_frequency_domain','mini_max_sum_frequency_domain','variance_frequency_domain','mean_frequency_domain','min_max_subtract_frequency_domain']
 feature_names_dimensions = add_feature_names(all_features, dimension_names)
 
 print("normalize\n")
